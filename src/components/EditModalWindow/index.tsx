@@ -1,0 +1,1 @@
+export { EditModalWindow } from './EditModalWindow';

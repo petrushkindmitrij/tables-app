@@ -1,0 +1,51 @@
+{
+  "name": "Tables-app",
+  "version": "0.0.0",
+  "author": "Petrushkin Dmitriy <petrushkindmitrij@yandex.ru",
+  "homepage": "",
+  "license": "ISC",
+  "scripts": {
+    "format:check": "prettier -c .",
+    "format": "prettier -w .",
+    "lint": "eslint src --ext ts,tsx",
+    "dev": "vite",
+    "start": "vite --open",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@emotion/react": "^11.1.1",
+    "@types/lodash": "^4.14.182",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.2",
+    "@types/react-redux": "^7.1.15",
+    "@types/xstyled__system": "^1.19.1",
+    "@typescript-eslint/eslint-plugin": "^5.54.1",
+    "@vitejs/plugin-react": "^3.0.0",
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-config-ts-react-important-stuff": "^2.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.8.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.7.4",
+    "vite": "^4.0.0",
+    "vite-plugin-checker": "^0.5.2"
+  },
+  "dependencies": {
+    "@emotion/styled": "^11.1.5",
+    "@hookform/devtools": "2.2.1",
+    "@reduxjs/toolkit": "1.5.0",
+    "@xstyled/system": "^1.19.0",
+    "emotion-theming": "^10.0.27",
+    "lodash": "^4.17.21",
+    "normalize.css": "^8.0.1",
+    "path": "^0.12.7",
+    "react-base-table": "^1.12.0",
+    "react-hook-form": "^6.15.8",
+    "react-redux": "^7.2.2"
+  }
+}
